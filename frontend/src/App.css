@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.header {  
+  background-color:#DF362D;
+  max-width: 100%;
+  padding: 16px 0 16px 0;
+  color:aliceblue;
+  font-size: 100px;
+}
+
+.aHeader {
+  color: #f1b17c;
+ text-decoration: none;
+}
+
+.aHeader:hover {
+  color: #e7af37;
+ text-decoration: none;
+}
+
+.navLi {
+ list-style-type: none;
+ color:rgb(215, 245, 250);
+}
+
+.nav_navLink {
+  margin: auto;
+ min-height: 228px;
+ max-width: 228px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #FF4500;
+ text-decoration: none;
+ font-size: 36px;
+ border-radius: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow:
+  -2px -2px 0 rgb(255, 255, 255),
+  2px -2px 0 rgb(255, 255, 255),
+  -2px 2px 0 rgb(255, 255, 255),
+  2px 2px 0 rgb(255, 255, 255); 
+}
+
+.nav_navLink:hover {
+  background-color: #c23d0c;
+  color:rgb(41, 40, 40);
+  text-shadow:
+  -2px -2px 0 rgb(224, 189, 155),
+  2px -2px 0 rgb(224, 189, 155),
+  -2px 2px 0 rgb(224, 189, 155),
+  2px 2px 0 rgb(224, 189, 155); 
+}
+
+.navUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signForm {
+  border: 2px solid rgba(0, 0, 0, 0.144);
+  border-radius: 15px;
+  font-size: large;
+  padding: 16px 16px 16px 16px;
+  margin-top: 100px;
+}
+
+.marginTop20 {
+  margin-top: 20px !important;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px;
+}
+
+.DishTemplate {
+  border: 1px solid rgb(99, 99, 99);
+  border-radius: 15px;
+  margin-top: 24px;
+  padding: 16px 16px 16px 16px;
+}
+
+.DishTemplate.fullBT {
+  text-align: left;
+  border: 0px;
+}
+
+.createCommentBox {
+  border: 1px solid rgb(99, 99, 99);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  background-color: #B7AC44;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img-small{
+  min-height: 214px;
+}
+
+.img-large {
+  min-height: 250px;
+  min-width: 100%;
+  max-height: 100%;
+}
+
+#menu_btn {
+  background-image: url('../public/images/menu.png');
+}
+
+#users_btn {
+  background-image: url('../public/images/users.png');
+}
+
+#create_dish_btn {
+  background-image: url('../public/images/pencil.png');
+}
+
+.breadcrumb {
+  margin-left: 10%;
+}
+
+.breadcrumb-item {
+  font-size: 22px;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+td {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+th[scope="col"] {
+  background-color: #696969;
+  color: #fff;
+}
+
+th[scope="row"] {
+  background-color: #d7d9f2;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+}
